@@ -1,0 +1,47 @@
+OUTLINE
+=======
+
+"Write a story outline in {language} with these elements:
+- {main_character}
+- {secondary_character}
+- Set in {location}
+- Focused on {key_action}
+- Style {style}
+- Length {length}
+
+IMPORTANT: Answer ONLY with your story outline. Do NOT repeat these instructions or use bullet points."
+
+
+
+
+WRITING
+=======
+
+"Here's a story outline:
+
+{outline}
+
+Write a story based on the outline in a detailed and engaging way, considering:
+- Maintain the {style} style
+- Include sensory details and emotions
+- Use natural dialogue
+- Approximate length (VERY IMPORTANT): {length}
+
+IMPORTANT: Respond ONLY with the final story. DO NOT repeat these instructions or the original outline.
+
+
+
+
+REVISION 
+========
+"Here's a story that needs revision:
+
+{story}
+
+Improve this story while maintaining these key points:
+- Style {style}
+- Correct grammar and spelling errors
+- Improve dialogue and descriptions
+- Keep the length similar!! VERY IMPORTANT!! ({length})
+
+IMPORTANT: Respond ONLY with the final improved version. DO NOT repeat these instructions or the original story."
