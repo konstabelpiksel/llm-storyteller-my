@@ -129,7 +129,8 @@ BASE_URL = "http://192.168.100.47:1234/v1" #http://192.168.100.47:1234/v1/chat/c
 AVAILABLE_MODELS = {
     "Llama 1B": "llama-3.2-1b-instruct",
     "Qwen 1.5B": "qwen2.5-1.5b-instruct",
-    "Gemma 2 9B":"gemma-2-ataraxy-9b", #lemon07r/Gemma-2-Ataraxy-v2-9B
+    "Gemma 2 9B":"gemma-2-ataraxy-9b", 
+    "Gemma 2 9B Ataraxy": "lemon07r/Gemma-2-Ataraxy-v2-9B"
 }
 
 def call_llm(prompt, model, temperature=0.7):
@@ -222,7 +223,7 @@ with col3:
 with col4:
     style = st.selectbox(
         "Genre naratif",
-        ["Misteri", "Fiksyen Sains", "Percintaan", "Fantasí", "Komedi", "Seram", "Aksi", "Jenayah"]
+        ["Misteri", "Fiksyen Sains", "Percintaan", "Fantasí", "Komedi", "Seram", "Aksi", "Jenayah", "Erotik"]
     )
 
 # Botón de generación fuera del formulario
